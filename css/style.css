@@ -1,0 +1,21 @@
+/*选项卡*/
+.icon-msg-on{
+	background: url(../img/icon-bubble-on.png) no-repeat center top;
+}
+.icon-msg-off{
+	background: url(../img/icon-bubble-off.png) no-repeat center top;
+}
+
+.icon-contacts-on{
+	background: url(../img/icon-user-on.png) no-repeat center top;
+}
+.icon-contacts-off{
+	background: url(../img/icon-user-off.png) no-repeat center top;
+}
+
+.icon-dynamic-on{
+	background: url(../img/icon-star-on.png) no-repeat center top;
+}
+.icon-dynamic-off{
+	background: url(../img/icon-star-off.png) no-repeat center top;
+}
