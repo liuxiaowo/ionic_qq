@@ -1,3 +1,7 @@
+body,ion-header-bar,img{
+	padding:0px; 
+	margin:0px;
+}
 /*选项卡*/
 .icon-msg-on{
 	background: url(../img/icon-bubble-on.png) no-repeat center top;
@@ -19,3 +23,45 @@
 .icon-dynamic-off{
 	background: url(../img/icon-star-off.png) no-repeat center top;
 }
+
+/*消息界面*/
+.msg{
+	width:100%;
+}
+/*头像*/
+.user_pic{
+	width:32px;
+	height:32px;
+}
+/*更多*/
+.more{
+	position:fixed;
+	right:0;
+}
+/*顶部选项卡*/
+.button-bar{
+	width:100px;
+	text-align: center;
+}
+/*顶部选项卡*/
+.button-bar{
+	margin:2px 90px 2px 60px;
+}
+.bar-calm .button.active, .bar-calm .button.activated {
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color:#11c1f3;
+}
+.bar.bar-calm {
+    border-color: #ffffff;
+}
+.bar-calm .button {
+    border-color: #ffffff;
+}
+.msg-btn{
+	border-right:0;
+}
+.tel-btn{
+	border-left:0;
+}
+

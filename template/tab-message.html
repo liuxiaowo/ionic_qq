@@ -1,5 +1,13 @@
-<ion-nav-view view-title="消息">
-	<ion-header-bar class="bar-positive">
-		<h1 class="title">消息</h1>
+<ion-nav-view view-title="消息" class="msg">
+	<ion-header-bar class="bar-calm">
+		<!--头像-->
+		<img class="user_pic" src="img/ionic.png">
+		<!--顶部选项卡-->
+        <div class="button-bar">
+        	<button class="button activated msg-btn" ng-onclick="clickbtn(1)">消息</button>
+        	<button class="button tel-btn" ng-onclick="clickbtn(2)">电话</button>
+        </div>
+        <!--更多按钮-->
+		<img class="more" src="img/more.png">
 	</ion-header-bar>
 </ion-nav-view>
